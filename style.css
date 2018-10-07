@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Kaushan Script', cursive; /* Google font */
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -20,12 +20,13 @@ header {
     width: 95%;
     margin: auto;
     overflow: hidden;
+    text-transform: uppercase;
 }
 
 .title {
-    color: #fff;
+    color: red;
     flex: 1;
-    font-size: 40px;
+    font-size: 45px;
     padding: 18px;
 }
 
@@ -36,12 +37,17 @@ header {
 .menu ul {
     display: flex;
     margin-top: 30px;
+    
 }
 
 .menu ul li {
-    flex: 1;
+    /* flex: 1; */
+    flex-grow: 0.1;
+    
 }
-
+.menu ul li a:hover{
+    color: red;
+}
 .menu ul li a {
     color: #fff;
     font-size: 20px;
@@ -63,8 +69,11 @@ main div{
 main div img {
     width: 100%;
     height: auto;
+    transition: transform .5s;
 }
-
+main div img:hover{
+    transform: scale(1.3);
+  }
 @media all and (max-width: 700px) {
     .menu {
         display: none;
