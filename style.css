@@ -20,11 +20,13 @@ header {
     width: 95%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 .title {
     color: #fff;
     flex: 1;
+    align-items: flex-end;
     font-size: 40px;
     padding: 18px;
 }
@@ -47,17 +49,36 @@ header {
     font-size: 20px;
     text-decoration: none;
 }
+main{
+    margin: .5vw;
+    font-size: 0;
+    flex-direction: column;
+    flex-flow: row wrap;   
+    display:flex; 
+}
 
-img {
-    margin-right: 30px;
-    white-space: nowrap;
+main div{
+    -webkit-box-flex: auto;
+    flex: auto;
+    width: 150px;
+    margin: 30px;
+}
+main div img {
+    width: 100%;
+    height: auto;
 }
 
 @media all and (max-width: 700px) {
     .menu {
         display: none;
     }
-    .title{
+    header{
         text-align: center;    
+    }
+    main div{
+        margin: 0;
+    }
+    main{
+        padding: 0;
     }
 }
