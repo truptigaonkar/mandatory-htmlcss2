@@ -20,13 +20,11 @@ header {
     width: 95%;
     margin: auto;
     overflow: hidden;
-    
 }
 
 .title {
     color: #fff;
     flex: 1;
-    align-items: flex-end;
     font-size: 40px;
     padding: 18px;
 }
@@ -58,7 +56,6 @@ main{
 }
 
 main div{
-    -webkit-box-flex: auto;
     flex: auto;
     width: 150px;
     margin: 30px;
@@ -76,7 +73,7 @@ main div img {
         text-align: center;    
     }
     main div{
-        margin: 0;
+        margin: 30px;
     }
     main{
         padding: 0;
