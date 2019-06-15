@@ -1,7 +1,6 @@
-# layout – HTML/CSS (flexbox and media queries)
-### [Demo]( https://truptigaonkar.github.io/mandatory-htmlcss2/)
+## layout – HTML/CSS (flexbox and media queries) - [Live Demo]( https://truptigaonkar.github.io/mandatory-htmlcss2/)
 
-## Instructions
+### Instructions
 * Build a layout using HTML and CSS using flexbox and media queries
 * Create an HTML page and make a layout for a streaming service for movies.
 * The layout should be responsive and built according to the following requirements:
